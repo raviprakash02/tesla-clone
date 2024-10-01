@@ -1,0 +1,66 @@
+.logo {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: "Arial", sans-serif;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #0f0606;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #ccc;
+}
+
+.siddnav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.sidenav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.sidenav-links li {
+  margin-left: 10px;
+}
+
+.sidenav-links a {
+  color: #0f0606;
+  text-decoration: none;
+}
+
+.sidenav-links a:hover {
+  color: #ccc;
+}
